@@ -23,11 +23,13 @@ module.exports = {
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module",
-        "project": "./tsconfig.json"
+        "project": "./tsconfig.json",
+        "extraFileExtensions": [".svg", ".css"]
     },
     "plugins": [
         "react"
     ],
     "rules": {
+        "react/react-in-jsx-scope": "off"
     }
 }

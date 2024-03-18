@@ -1,0 +1,3 @@
+src/assets/*.svg
+src/*.css
+.eslintrc.cjs
