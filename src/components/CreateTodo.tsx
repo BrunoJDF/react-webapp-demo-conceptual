@@ -14,13 +14,13 @@ export const CreateTodo: React.FC<Props> = ({ saveTodo }) => {
   }
   return (
     <form onSubmit={handleSubmit}>
-        <input
-            className="new-todo"
-            value={inputValue}
-            onChange={(event) => { setInputValue(event.target.value) }}
-            placeholder="¿Qué necesitas hacer?"
-            autoFocus
-        />
+      <input
+        className="new-todo"
+        value={inputValue}
+        onChange={(event) => { setInputValue(event.target.value) }}
+        placeholder="¿Qué necesitas hacer?"
+        autoFocus
+      />
     </form>
   )
 }

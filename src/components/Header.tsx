@@ -9,8 +9,8 @@ interface Props {
 export const Header: React.FC<Props> = ({ onAddTodo }) => {
   return (
     <header>
-        <h1>todo</h1>
-        <CreateTodo saveTodo={onAddTodo} />
+      <h1>todo</h1>
+      <CreateTodo saveTodo={onAddTodo} />
     </header>
   )
 }
